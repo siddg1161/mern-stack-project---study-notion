@@ -1,5 +1,9 @@
 ## StudyNotion
 
+🚀 **Live Demo:** [Click Here to Visit](https://study-notion-project-topaz.vercel.app/)
+
+StudyNotion is an e-learning platform where instructors can create courses, and students can enroll, track progress, and make payments via Razorpay. It is developed using MERN stack.
+
 StudyNotion is an e-learning platform where instructors can create courses, and students can enroll, track progress, and make payments via Razorpay. It is developed using MERN stack.
 
 ---
