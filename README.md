@@ -1,31 +1,47 @@
-# React & Tailwind CSS Starter Pack
+## StudyNotion
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+StudyNotion is an e-learning platform where instructors can create courses, and students can enroll, track progress, and make payments via Razorpay. It is developed using MERN stack.
 
-## Usage
+---
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+## Features
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+- **User authentication and Authorization**: StudyNotion provides secure user registration and authentication using JWT (JSON Web Tokens). Users can sign up, log in, and manage their profiles with ease.
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+- **Courses and Lectures**: Instructors can create and edit created courses.
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+- **Payment Integration**: Study Notion integrates with Razorpay for payment processing. Users can make secure payments for course enrollment and other services using various payment methods supported by Razorpay.
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+- **Enrollment & Cart Functionality**: Students can enroll in courses, access course materials, and track their progress. Students can add courses to the cart and enroll after payment.
 
-## Contributing
+- **Instructor Dashboard**: Instructors have access to a comprehensive dashboard to view information about their courses, students, and income. The dashboard provides charts and visualizations to present data clearly and intuitively. Instructors can monitor the total number of students enrolled in each course, track course performance, and view their income generated from course sales.
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+- **Student Dashboard**: The Student Dashboard allows users to edit their profile, update details, and manage their learning journey. Students can view enrolled courses, track progress, and access course materials seamlessly.
+
+- **Ratings & Reviews**: The Ratings & Reviews feature enables students to share feedback on courses, helping others make informed choices.
+
+- **Email Notifications**: Automated emails for enrollment, purchase confirmations, and updates.
+
+---
+
+## Project UI
+
+<img width="1920" height="1106" alt="Screenshot (571)" src="https://github.com/user-attachments/assets/6214074f-a296-4c05-8a73-5bf70b790d65" />
+
+<img width="1920" height="1098" alt="Screenshot (572)" src="https://github.com/user-attachments/assets/a5484ebc-f063-4ab4-a0bf-9b241e32fb1b" />
+
+<img width="1920" height="1092" alt="Screenshot (573)" src="https://github.com/user-attachments/assets/69dad314-d2d5-4e68-b735-a00ee839d85a" />
+
+<img width="1920" height="1098" alt="Screenshot (574)" src="https://github.com/user-attachments/assets/1554916d-8693-45f5-9f95-47926950e411" />
+
+<img width="1920" height="1106" alt="Screenshot (576)" src="https://github.com/user-attachments/assets/def9868c-04ea-4a1c-b16d-d9794a2f12b1" />
+
+
+## Important
+
+- Backend is in the server folder.
+
+- First create the categories e.g. web dev, Python, etc. (without categories courses cannot be added). To create categories create an Admin account and go to dashboard then admin panel.
+
+- To create an Admin account first sign up with a student or instructor account then go to your Database under the users model and change that 'accountType' to 'Admin'.
+
