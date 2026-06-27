@@ -55,7 +55,7 @@ const PublishCourse = () => {
         formData.append("status", courseStatus)
         setLoading(true)
 
-        const result = await editCourseDetails(formData, token)
+        const result = await editCourseDetails(formData, token) //backedn ko call krdiya
         if (result) {
            goToCourses()
         }

@@ -19,7 +19,7 @@ router.put("/updateProfile", auth, updateProfile)
 router.get("/getUserDetails", auth, getAllUserDetails)
 // Get Enrolled Courses
 router.get("/getEnrolledCourses", auth, getEnrolledCourses)
-//router.get("/instructorDashboard", auth, isInstructor, instructorDashboard)
+router.get("/instructorDashboard", auth, isInstructor, instructorDashboard)
 router.put("/updateDisplayPicture", auth, updateDisplayPicture)
 
 
